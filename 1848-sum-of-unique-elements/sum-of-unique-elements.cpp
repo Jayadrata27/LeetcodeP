@@ -7,17 +7,17 @@ public:
             bool found=false;
             for(int j=0;j<n;j++){
                 if(i==j){
-                    continue;
+                   continue;
                 }
                 else if(nums[i]==nums[j]){
                     found=true;
                     break;
                 }
+
             }
             if(found==false){
-                sum+=nums[i];
+               sum+=nums[i];
             }
-
         }
         return sum;
     }
